@@ -120,5 +120,5 @@ def main():
         current_turn = ai_player if current_turn == human_player else human_player
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
